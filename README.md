@@ -7,8 +7,7 @@ This is a test project that it is created in order to explain a problem faced wi
 What I wanted to achieve is when a customer/user visits a path that does not exist to show a custom template. 
 Inside this template we have various `path` functions of twig pointing to our home page.
 
-Furthermore I need the customer/user to stay on the page he visited and also return a 200 status code but as I have said 
-a template with an error.
+Furthermore I need the customer/user to not redirect from the page he visited to another one and also return a 200 status code. As I have said we need to see a custom template here.
 
 Please don't focus why do we have these requirements.
 
