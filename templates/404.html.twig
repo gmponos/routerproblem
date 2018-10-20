@@ -1,1 +1,4 @@
-{{ path('my_other') }}
+<h1>{{ 'page_not_found' | trans }}</h1>
+<p>
+    {{ 'could_not_locate' | trans }}<a href="{{ path('my_other') }}"> return to the homepage</a>.
+</p>
