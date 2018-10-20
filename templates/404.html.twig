@@ -1,4 +1,9 @@
-<h1>{{ 'page_not_found' | trans }}</h1>
-<p>
-    {{ 'could_not_locate' | trans }}<a href="{{ path('my_other') }}"> return to the homepage</a>.
-</p>
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>{{ 'hello_and_welcome' | trans }}</h1>
+    <p>{{ 'page_not_found' | trans }}</p>
+    <p>
+        {{ 'could_not_locate' | trans }} <a href="{{ path('my_other') }}">{{ 'return_homepage' | trans }}</a>.
+    </p>
+{% endblock %}
